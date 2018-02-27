@@ -8,6 +8,7 @@ export default () => (
       <div className="col" id="bottom-logo">
         <img src={BottomLogo} alt="logo"/>
       </div>
+      
       <div className="col" id="address">
         600 Madison Avenue<br/>
         8th Floor<br/>
@@ -25,26 +26,29 @@ export default () => (
     </div>
   <style jsx>{`
   footer{
+    position: static;
     background-color: rgb(0, 43, 73);
     width: 100%;
-    height: auto;
+    height: 100%;
     color: white;
   }
-  #bottom-logo{
-    height: 118px;
-    padding: 20px;
+  .row{
+    display: flex;
+    flex-direction: col;
   }
-  #logo{
-    padding-right:20px;
+  #bottom-logo{
+    height: 1%;
+    padding-left: 5%;
+    margin:2%;
   }
   #address{
-    width: 20%;
+    width: 75%;
     height: auto;
     color: #ffffff;
     font-size: 20px;
     line-height: 22px;
-    padding: 20px;
-    margin: 20px;
+    padding: 2%;
+    margin: 2%;
   }
   #copy{
     font-size: 16px;
