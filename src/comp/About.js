@@ -13,6 +13,7 @@ export default () => (
 		</div>
 		<style jsx>{`
 		#about{
+			position: static;
 			width:100%;
 			padding:5% 15% 5% 15%;
 			text-align:center;

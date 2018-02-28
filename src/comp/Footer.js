@@ -26,10 +26,10 @@ export default () => (
     </div>
   <style jsx>{`
   footer{
-    position: static;
+    position: absolute;
     background-color: rgb(0, 43, 73);
     width: 100%;
-    height: 100%;
+    height: auto;
     color: white;
   }
   .row{
@@ -37,11 +37,13 @@ export default () => (
     flex-direction: col;
   }
   #bottom-logo{
+    position: absolute;
     height: 1%;
-    padding-left: 5%;
-    margin:2%;
+    left: 8%;
+    top: 14%;
   }
   #address{
+    position: relative;
     width: 75%;
     height: auto;
     color: #ffffff;
@@ -49,10 +51,22 @@ export default () => (
     line-height: 22px;
     padding: 2%;
     margin: 2%;
+    padding:3%;
+    left: 15%;
   }
   #copy{
+    position:relative;
     font-size: 16px;
     line-height: 36px;
+    padding:1%;
+    left: 6%;
+  }
+  #social{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 83%;
+    top: 20%;
   }
   `}</style>
 </footer>
