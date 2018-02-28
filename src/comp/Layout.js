@@ -15,7 +15,7 @@ export default ({children}) => (
       padding:0px;
       margin:0px;
       box-sizing: border-box;
-      font-family: HelveticaNeueLTStd;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
     `}</style>
 </div>

@@ -51,7 +51,6 @@ export default () => (
       }
       #wheel-info h1{
         width: 100%;
-        height: 2.1%;
         color: #00355f;
         font-size: 60px;
         line-height: 58px;
@@ -67,7 +66,7 @@ export default () => (
     .bg-img{
         position: absolute;
         width: 100%;
-        height: 100%;
+        height: auto;
         top: 0;
         bottom: 0;
         left: 0;
@@ -79,6 +78,11 @@ export default () => (
         background-repeat: no-repeat;
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
     }
     #grey-area{
         background-color: rgba(225, 225, 225, 0.85);

@@ -54,6 +54,7 @@ export default () => (
     #banner{
       position: relative;
       width: 100%;
+      padding-top: 3em;
     }
 
     #bg-layer {
