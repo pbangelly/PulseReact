@@ -17,8 +17,8 @@ export default () => (
 			width:100%;
 			padding:5% 15% 5% 15%;
 			text-align:center;
-			border-bottom: 2px solid darkBlue;
-			box-shadow: 1px 3px light;
+			border-bottom: 5px solid lightBlue;
+			box-shadow: 1px 1px grey;
 		}
 		#title{
 			padding-bottom:3%;
