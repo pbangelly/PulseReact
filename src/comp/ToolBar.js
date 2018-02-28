@@ -25,7 +25,7 @@ export default () => (
   </div>
   <style jsx>{`
     #menu-bar {
-      position: fixed;
+      position: absolute;
       z-index: 100;
       background: white;
       width: 100%;
