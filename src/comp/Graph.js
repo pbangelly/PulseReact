@@ -24,7 +24,8 @@ export default () => (
       .wrapper {
         display: grid;
         position: relative;
-    }.row{
+      }
+      .row{
         display: flex;
         justify-content: center;
     }

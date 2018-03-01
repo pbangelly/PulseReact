@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.2",
+    "next": "^5.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
     "styled-jsx": "^2.2.5"
   },
-  "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test --env=jsdom",
-    "eject": "react-app-rewired eject"
-  },
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+    },
   "devDependencies": {
     "react-app-rewired": "^1.4.1"
   }
